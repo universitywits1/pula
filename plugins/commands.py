@@ -20,13 +20,13 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('✨ Follow Me On Instagram ✨', url='Instagram.com/mhd__thanzeer')
+            InlineKeyboardButton('✨ Working Group ✨', url='https://t.me/MovieRosterGroup')
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
+            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/Rafeeq_Kunnimon'),
 
-            InlineKeyboardButton('🎪 Group', url='https://t.me/wolfpackmedia')
+            InlineKeyboardButton('🎪 Group', url='https://t.me/MovieRosterGroup')
 
             ],[
 
@@ -71,7 +71,7 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
 
-            InlineKeyboardButton('✨ Follow Me On Instagram ✨', url='Instagram.com/mhd__thanzeer')
+            InlineKeyboardButton('✨ Working Group ✨', url='https://t.me/MovieRosterGroup')
 
             ],[
 
