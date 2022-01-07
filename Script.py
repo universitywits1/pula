@@ -1,31 +1,23 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-ꜱᴏᴏʀy ᴅᴜᴅᴇ....❗️❗️
- 
-ɪ ᴀᴍ ᴡᴏʀᴋ ᴏɴʟʏ ꜰᴏʀ ᴍʏ ʙᴏꜱꜱ
- 
- ᴅᴏ ɴᴏᴛ ꜰʟᴏᴏᴅ ᴍᴇ ɪ ᴅᴏɴ'ᴛ ʟɪᴋᴇ ꜰʟᴏᴏᴅɪɴɢ
- 
-ᴅᴏ ɴᴏᴛ ᴡᴀꜱᴛᴇ ᴛɪᴍᴇ ɢᴏ ᴀʜᴇᴀᴅ 𝐁𝐈𝐓𝐂𝐇
- 
- 
-➪ Developer : 𝑅𝒶𝒻𝑒𝑒𝓆
-HELP_TXT = """𝙷𝙴𝚈 {}
+    START_TXT = """нєℓℓσω {}</b>
+<b>🌝 𝘛𝘩𝘦𝘳𝘦 𝘐𝘴 𝘕𝘰𝘵𝘩𝘪𝘯𝘨 𝘠𝘰𝘶 𝘕𝘦𝘦𝘥 𝘏𝘦𝘳𝘦 𝘞𝘪𝘵𝘩𝘰𝘶𝘵 𝘞𝘢𝘴𝘵𝘪𝘯𝘨 𝘛𝘪𝘮𝘦..!!
+🌚 𝘛𝘩𝘢𝘵'𝘴 𝘈𝘭𝘭 𝘔𝘢𝘯 𝘐 𝘞𝘪𝘭𝘭 𝘗𝘳𝘰𝘷𝘪𝘥𝘦 𝘔𝘰𝘷𝘪𝘦𝘴 𝘐𝘯 𝘗𝘔
+✨ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/Rafeeq_Kunnimon'>𝘙𝘢𝘧𝘦𝘦𝘲 𝘒𝘶𝘯𝘯𝘪𝘮𝘰𝘯</a> </b>"""
+    HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+    ABOUT_TXT = """<b>🥱 My Name : 尺卂千乇乇Ɋ Ҝㄩ几几丨爪ㄖ几
+🕵‍♂ Developer : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a>
+📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+🔋 Bot Group : @Movie_Roster_Group </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
-<b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌
+</i></b>
+<b>🕵‍♂ Developer : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a> </b>
+"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
 <b>NOTE:</b>
 1. eva maria should have admin privillage.
 2. only admins can add filters in a chat.
@@ -42,13 +34,13 @@ HELP_TXT = """𝙷𝙴𝚈 {}
 2. Eva Maria supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https//t.me/EvaMariaBot)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
-2. make sure that your channel does not contains camrips, porn and fake files.
+2. make sure that your channel does not contains cam rip, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
     CONNECTION_TXT = """Help: <b>Connections</b>
@@ -63,7 +55,7 @@ HELP_TXT = """𝙷𝙴𝚈 {}
 • /connections - <code>list all your connections</code>"""
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of tessa
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
@@ -75,7 +67,6 @@ This module only works for my admins
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
-• /delete - <code>to delete a specific file from db.</code>
 • /users - <code>to get list of my users and ids.</code>
 • /chats - <code>to get list of the my chats and ids </code>
 • /leave  - <code>to leave from a chat.</code>
