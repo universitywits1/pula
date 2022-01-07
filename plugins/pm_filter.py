@@ -362,10 +362,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('✨ Follow Me On Instagram ✨', url='Instagram.com/mhd__thanzeer')
+            InlineKeyboardButton('✨ Working Group ✨', url='https://t.me/MovieRosterGroup')
             ],[
-            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
-            InlineKeyboardButton('🎪 Group', url='https://t.me/wolfpackmedia')
+            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🎪 Group', url='https://t.me/MovieRosterGroup')
             ],[
             InlineKeyboardButton('🧯 Help ', callback_data='help'),
             InlineKeyboardButton('📚 About', callback_data='about')
@@ -395,7 +395,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
+            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/Rafeeq_Kunnimon'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
