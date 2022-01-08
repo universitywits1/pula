@@ -54,13 +54,13 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "➡️ 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=invite_link.invite_link
+                    "🤖 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton("♻️ 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 𝐓𝐎 𝐀𝐂𝐂𝐄𝐒𝐒 ♻️", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton(" 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL ⚠️\n\n🤗 JOIN ON OUR CHANNEL TO GET MOVIES ✅\n\n⚠️ താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല!! ⚠️\n\n🤗 ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് മൂവീസ് കിട്ടുന്നതാണ്  ✅**",
@@ -71,19 +71,19 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
 
-            InlineKeyboardButton('✨ Working Group ✨', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('✨ 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩 ✨', url='https://t.me/MovieRosterGroup')
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
+            InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/mhd_thanzeer'),
 
-            InlineKeyboardButton('🎪 Group', url='https://t.me/wolfpackmedia')
+            InlineKeyboardButton('🎪 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/wolfpackmedia')
 
             ],[
 
-            InlineKeyboardButton('🧯 Help ', callback_data='help'),
+            InlineKeyboardButton('🧯 𝐇𝐞𝐥𝐩 ', callback_data='help'),
 
-            InlineKeyboardButton('📚 About', callback_data='about')
+            InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
