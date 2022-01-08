@@ -91,7 +91,7 @@ async def next_page(bot, query):
         for file in files:
             file_id = file.file_id
             btn.append(
-                [InlineKeyboardButton(text=f"📁 {file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"📁 {get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
+                [InlineKeyboardButton(text=f"📁 {file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"🎬 {get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
                 )
     if 0 < offset <= 10:
         off_set = 0
@@ -101,7 +101,7 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📃 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("⏪ BACK", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📘 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
         btn.append([InlineKeyboardButton(f"🔰 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
@@ -530,7 +530,7 @@ async def auto_filter(client, message):
             for file in files:
                 file_id = file.file_id
                 btn.append(
-                    [InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
+                    [InlineKeyboardButton(text=f"📁 {file.file_name}", callback_data=f'files#{file_id}'), InlineKeyboardButton(text=f"🎬 {get_size(file.file_size)}", callback_data=f'files_#{file_id}')]
                     )
         if not btn:
             return
