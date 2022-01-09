@@ -113,7 +113,10 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        )
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("⚡ᴊᴏɪɴ ɢʀᴏᴜᴘ⚡", url="https://t.me/MovieRosterGroup"),
+                                              InlineKeyboardButton("💥ꜱʜᴀʀᴇ💥", url="https://t.me/share/url?url=https://t.me/MovieRosterGroup") ],
+                                            [ InlineKeyboardButton("🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤖", url="https://t.me/MovieRosterOfficial") ] ] )
+        )       
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
