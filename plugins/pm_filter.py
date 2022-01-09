@@ -326,7 +326,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     file_id=file_id,
                     caption=f_caption
                     )
-                await query.answer('Check PM, I have sent files in pm',show_alert = True)
+                await query.answer('𝐂𝐡𝐞𝐜𝐤 𝐏𝐦. 𝐈 𝐇𝐚𝐯𝐞 𝐒𝐞𝐧𝐭 𝐅𝐢𝐥𝐞𝐬 𝐈𝐧 𝐏𝐌\n\nമൂവി നിങ്ങൾക് personal ആയി അയച്ചു',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -336,7 +336,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒",show_alert=True)
+            await query.answer("𝐈 𝐋𝐢𝐤𝐞 𝐘𝐨𝐮𝐫 𝐒𝐦𝐚𝐫𝐭𝐧𝐞𝐬𝐬, 𝐁𝐮𝐭 𝐃𝐨𝐧'𝐭 𝐁𝐞 𝐎𝐯𝐞𝐫𝐬𝐦𝐚𝐫𝐭 😒",show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files = (await get_file_details(file_id))[0]
@@ -378,8 +378,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manuel Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('🔖 𝐌𝐚𝐧𝐮𝐞𝐥 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='manuelfilter'),
+            InlineKeyboardButton('📀 𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='autofilter')
             ],[
             InlineKeyboardButton('🔌 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧', callback_data='coct'),
             InlineKeyboardButton('☢️ 𝐄𝐱𝐭𝐫𝐚 𝐌𝐨𝐝𝐬', callback_data='extra')
