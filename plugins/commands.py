@@ -20,19 +20,19 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('✨ Working Group ✨', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('✨ 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩 ✨', url='https://t.me/MovieRosterGroup')
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
 
-            InlineKeyboardButton('🎪 Group', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('🎪 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/MovieRosterGroup')
 
             ],[
 
-            InlineKeyboardButton('🧯 Help ', callback_data='help'),
+            InlineKeyboardButton('🧯 𝐇𝐞𝐥𝐩 ', callback_data='help'),
 
-            InlineKeyboardButton('📚 About', callback_data='about')
+            InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
