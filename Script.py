@@ -2,16 +2,16 @@ class script(object):
     START_TXT = """нєℓℓσω {}\n\n🌝 𝘛𝘩𝘦𝘳𝘦 𝘐𝘴 𝘕𝘰𝘵𝘩𝘪𝘯𝘨 𝘠𝘰𝘶 𝘕𝘦𝘦𝘥\n\n𝘏𝘦𝘳𝘦 𝘞𝘪𝘵𝘩𝘰𝘶𝘵 𝘞𝘢𝘴𝘵𝘪𝘯𝘨 𝘛𝘪𝘮𝘦..!!\n\n🌚 𝘛𝘩𝘢𝘵'𝘴 𝘈𝘭𝘭 𝘔𝘢𝘯 𝘐 𝘞𝘪𝘭𝘭 𝘗𝘳𝘰𝘷𝘪𝘥𝘦\n\n𝘔𝘰𝘷𝘪𝘦𝘴 𝘐𝘯 𝘗𝘔✨\n\n𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 :  <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★</a> """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>🥱 My Name : 尺卂千乇乇Ɋ Ҝㄩ几几丨爪ㄖ几
-🕵‍♂ Developer : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a>
-📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-🔋 Bot Group : @Movie_Roster_Group </b>"""
+    ABOUT_TXT = """<b>🥱 My Name : ★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★
+🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★</a>
+📚 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
+🖥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
+☢️ 𝐃𝐚𝐭𝐚 𝐁𝐚𝐬𝐞 : 𝐌𝐨𝐧𝐠𝐨 𝐃𝐛
+🕍 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : @MovieRosterGroup </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌
 </i></b>
-<b>🕵‍♂ Developer : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a> </b>
+<b>🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a> </b>
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
