@@ -7,11 +7,11 @@ class script(object):
 📚 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
 🖥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
 ☢️ 𝐃𝐚𝐭𝐚 𝐁𝐚𝐬𝐞 : 𝐌𝐨𝐧𝐠𝐨 𝐃𝐛
-🕍 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : @MovieRosterGroup </b>"""
+🏡 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : @MovieRosterGroup </b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌
 </i></b>
-<b>🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : <a href='https://t.me/Rafeeq_Kunnimon'>★  ᖇⓐ𝕗𝐄𝐄𝐐 𝓚𝐮几几เ𝐌𝕆几 ★</a> </b>
+<b>🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★</a> </b>
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 - Filter is the feature were users can set automated replies for a particular keyword and tessa will respond whenever a keyword is found the message
@@ -31,7 +31,7 @@ class script(object):
 2. Eva Maria supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https//t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https//t.me/Movie_Roster_bot)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
