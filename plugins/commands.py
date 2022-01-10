@@ -10,7 +10,7 @@ from database.users_chats_db import db
 from info import CHANNELS, ADMINS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, LOG_CHANNEL, PICS
 from utils import get_size, is_subscribed, temp
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger(name)
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, message):
@@ -20,19 +20,19 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
 
-            InlineKeyboardButton('✨ 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩 ✨', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('✨ Follow Me On Instagram ✨', url='Instagram.com/mhd__thanzeer')
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
+            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
 
-            InlineKeyboardButton('🎪 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('🎪 Group', url='https://t.me/wolfpackmedia')
 
             ],[
 
-            InlineKeyboardButton('🧯 𝐇𝐞𝐥𝐩 ', callback_data='help'),
+            InlineKeyboardButton('🧯 Help ', callback_data='help'),
 
-            InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('📚 About', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -54,16 +54,16 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 𝐉𝐨𝐢𝐧 𝐔𝐩𝐝𝐚𝐭𝐞 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url=invite_link.invite_link
+                    "➡️ 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("♻️ 𝐓𝐑𝐘 𝐀𝐆𝐀𝐈𝐍 𝐓𝐎 𝐀𝐂𝐂𝐄𝐒𝐒 ♻️", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL ⚠️\n\n🤗 JOIN ON OUR CHANNEL TO GET MOVIES ✅\n\n⚠️ താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല!! ⚠️\n\n🤗 ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് മൂവീസ് കിട്ടുന്നതാണ്  ✅**",
+            text="⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL ⚠️\n\n🤗 JOIN ON OUR CHANNEL TO GET MOVIES ✅\n\n⚠️ താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല!! ⚠️\n\n🤗 ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യതാൽ താങ്കൾക്ക് മൂവീസ് കിട്ടുന്നതാണ്  ✅",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
@@ -71,19 +71,19 @@ async def start(client, message):
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay"]:
         buttons = [[
 
-            InlineKeyboardButton('✨ 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩 ✨', url='https://t.me/MovieRosterGroup')
+            InlineKeyboardButton('✨ Follow Me On Instagram ✨', url='Instagram.com/mhd__thanzeer')
 
             ],[
 
-            InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/mhd_thanzeer'),
+            InlineKeyboardButton('🕵‍♂ Developer', url='https://t.me/mhd_thanzeer'),
 
-            InlineKeyboardButton('🎪 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/wolfpackmedia')
+            InlineKeyboardButton('🎪 Group', url='https://t.me/wolfpackmedia')
 
             ],[
 
-            InlineKeyboardButton('🧯 𝐇𝐞𝐥𝐩 ', callback_data='help'),
+            InlineKeyboardButton('🧯 Help ', callback_data='help'),
 
-            InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('📚 About', callback_data='about')
 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -94,7 +94,8 @@ async def start(client, message):
             parse_mode='html'
         )
         if not await db.is_user_exist(message.from_user.id):
-            await db.add_user(message.from_user.id, message.from_user.first_name)
+
+await db.add_user(message.from_user.id, message.from_user.first_name)
         return
     file_id = message.command[1]
     files = (await get_file_details(file_id))[0]
@@ -113,20 +114,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        buttons = [
-                    [
-                            InlineKeyboardButton
-                                (
-                                    '🎖️ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 🎖️', url="https://t.me/MovieRosterGroup"
-                                )
-                        ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🧩 𝚂𝚑𝚊𝚛𝚎 𝙶𝚛𝚘𝚞𝚙 🧩', url="https://t.me/share/url?url=https://t.me/MovieRosterGroup"
-                                )
-                        ]
-                    ]
+        )
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
@@ -140,7 +128,7 @@ async def channel_info(bot, message):
     else:
         raise ValueError("Unexpected type of CHANNELS")
 
-    text = '📑 **Indexed channels/groups**\n'
+    text = '📑 Indexed channels/groups\n'
     for channel in channels:
         chat = await bot.get_chat(channel)
         if chat.username:
@@ -148,7 +136,7 @@ async def channel_info(bot, message):
         else:
             text += '\n' + chat.title or chat.first_name
 
-    text += f'\n\n**Total:** {len(CHANNELS)}'
+    text += f'\n\nTotal: {len(CHANNELS)}'
 
     if len(text) < 4096:
         await message.reply(text)
