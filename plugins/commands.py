@@ -77,7 +77,7 @@ async def start(client, message):
 
             InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/mhd_thanzeer'),
 
-            InlineKeyboardButton('🎪 𝐆𝐫𝐨𝐮𝐩', url='https://t.me/wolfpackmedia')
+            InlineKeyboardButton('❤️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/MovieRosterOfficial')
 
             ],[
 
@@ -109,27 +109,13 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
+    await client.send_cached_media(
+        chat_id=message.from_user.id,
+        file_id=file_id,
+        caption=f_caption,
+        )
+                    
 
-    buttons = [
-                    [
-                            InlineKeyboardButton
-                                (
-                                    '🎖️ ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 🎖️', url="https://t.me/MovieRosterGroup"
-                                )
-                        ],
-                        [
-                            InlineKeyboardButton
-                                (
-                                    '🧩 𝚂𝚑𝚊𝚛𝚎 𝙶𝚛𝚘𝚞𝚙 🧩', url="https://t.me/share/url?url=https://t.me/MovieRosterGroup"
-                                )
-                        ]
-                    ]
-                await bot.send_cached_media(
-                    chat_id=message.from_user.id,
-                    file_id=file_id,
-                    caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup(buttons)
-                    )
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
            
