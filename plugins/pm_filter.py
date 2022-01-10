@@ -101,7 +101,7 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("⏪ 𝐁𝐚𝐜𝐤", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📚 Pages {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
+            [InlineKeyboardButton("⏪ 𝐁𝐚𝐜𝐤", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"📚 𝐏𝐚𝐠𝐞𝐬 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages")]
         )
     elif off_set is None:
         btn.append([InlineKeyboardButton(f"🔰 {round(int(offset)/10)+1} / {round(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ⏩", callback_data=f"next_{req}_{key}_{n_offset}")])
@@ -398,7 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
             InlineKeyboardButton('♥️ 𝐒𝐨𝐮𝐫𝐜𝐞', callback_data='source')
             ],[
-            InlineKeyboardButton('🏠 𝐇𝐨𝐦𝐞', callback_data='start'),
+            InlineKeyboardButton('🏡 𝐇𝐨𝐦𝐞', callback_data='start'),
             InlineKeyboardButton('⛔ 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
