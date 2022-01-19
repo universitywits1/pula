@@ -64,6 +64,7 @@ This module only works for my admins
 <b>Commands and Usage:</b>
 • /logs - <code>to get the rescent errors</code>
 • /stats - <code>to get status of files in db.</code>
+• /delete -<code>to delete a specific file from db.
 • /users - <code>to get list of my users and ids.</code>
 • /chats - <code>to get list of the my chats and ids </code>
 • /leave  - <code>to leave from a chat.</code>
@@ -72,7 +73,7 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞𝐬:<b>{}</b>\n\n★ 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫𝐬 :<b>{}</b>\n\n★ 𝐓𝐨𝐭𝐚𝐥 𝐂𝐡𝐚𝐭𝐬 :<b> {}</b>\n\n★ 𝐔𝐬𝐞𝐝 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 :<b>{} 𝐌𝐢𝐛</b>\n\n★ 𝐅𝐫𝐞𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 :<b>{}</b> 𝐌𝐢𝐛"""
+    STATUS_TXT = """⍟ 𝐓𝐨𝐭𝐚𝐥 𝐅𝐢𝐥𝐞𝐬:<b>{}</b>\n\n⍟ 𝐓𝐨𝐭𝐚𝐥 𝐔𝐬𝐞𝐫𝐬 :<b>{}</b>\n\n⍟ 𝐓𝐨𝐭𝐚𝐥 𝐂𝐡𝐚𝐭𝐬 :<b> {}</b>\n\n⍟ 𝐔𝐬𝐞𝐝 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 :<b>{} 𝐌𝐢𝐛</b>\n\n⍟ 𝐅𝐫𝐞𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 :<b>{}</b> 𝐌𝐢𝐛"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
