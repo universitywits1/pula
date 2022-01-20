@@ -1,13 +1,13 @@
 class script(object):
-    START_TXT = """𝐇𝐞𝐥𝐥𝐨𝐰 {}\n\n⎆ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/{}>{}</a>\n\n⎆ 𝐈 𝐀𝐦 𝐚 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐟𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭.\n\n🕵️ 𝐈 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 𝐈𝐧 𝐀𝐥𝐥 𝐔𝐬𝐞𝐫𝐬\n\n👮‍♂ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 🇮🇳</a> """
+    START_TXT = """𝐇𝐞𝐥𝐥𝐨𝐰 {}\n\n⎆ 𝐌𝐲 𝐍𝐚𝐦𝐞 𝐈𝐬 <a href=https://t.me/{}>{}</a>\n\n⎆ 𝐈 𝐀𝐦 𝐚 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐟𝐢𝐥𝐭𝐞𝐫 𝐁𝐨𝐭.\n\n🕵️ 𝐈 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐌𝐨𝐯𝐢𝐞𝐬 𝐈𝐧 𝐀𝐥𝐥 𝐔𝐬𝐞𝐫𝐬\n\n👮‍♂ 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★</a> """
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>🥱 My Name : 𝐒𝐡𝐢𝐧𝐨𝐛𝐮 𝐊𝐨𝐜𝐡𝐨 ❤️
+    ABOUT_TXT = """<b>🥱 𝐌𝐲 𝐍𝐚𝐦𝐞 : <a href=https://t.me/{}>{}</a>
 🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 : <a href='https://t.me/Rafeeq_Kunnimon'>★ 𝐑𝐚𝐟𝐞𝐞𝐪 ★</a>
 📚 𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦
 🖥 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧 𝟑
 ☢️ 𝐃𝐚𝐭𝐚 𝐁𝐚𝐬𝐞 : 𝐌𝐨𝐧𝐠𝐨 𝐃𝐛
-🏡 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : @MovieRosterGroup </b>"""
+🏡 𝐁𝐨𝐭 𝐆𝐫𝐨𝐮𝐩 : <b>@MovieRosterGroup</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 👋<b><i>എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌
 </i></b>
