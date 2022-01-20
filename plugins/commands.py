@@ -139,8 +139,8 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("⚡ᴊᴏɪɴ ɢʀᴏᴜᴘ⚡", url="https://t.me/Cinemahub182"),
-                                              InlineKeyboardButton("💥ꜱʜᴀʀᴇ💥", url="https://t.me/share/url?url=https://t.me/Cinemahub182") ],
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("⚡ᴊᴏɪɴ ɢʀᴏᴜᴘ⚡", url="https://t.me/MovieRosterGroup"),
+                                              InlineKeyboardButton("💥ꜱʜᴀʀᴇ💥", url="https://t.me/share/url?url=https://t.me/MovieRosterGroup") ],
                                             [ InlineKeyboardButton("🔖ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ🔖", url="https://t.me/MovieRosterOfficial") ] ] )
         )
                     
