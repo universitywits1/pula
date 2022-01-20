@@ -525,7 +525,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✖️ 𝐁𝐚𝐜𝐤', callback_data='help'),
             InlineKeyboardButton('♻️ 𝐑𝐞𝐟𝐫𝐞𝐬𝐡', callback_data='rfrsh')
         ]]
-
+        reply_markup = InlineKeyboardMarkup(buttons)
+        total = await Media.count_documents()
+        users = await db.total_users_count()
+        chats = await db.total_chat_count()
+        monsize = await db.get_db_size()
+        free = 536870912 - monsize
+        monsize = get_size(monsize)
+        free = get_size(free)
+        await query.message.edit_text(
+            text=script.STATUS_TXT.format(total, users, chats, monsize, free),
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
 async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
