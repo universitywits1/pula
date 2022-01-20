@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="assets/logo.jpg" alt="logo.jpg">
+![IMG_20220114_122206_199](https://user-images.githubusercontent.com/87922252/150274253-c172c3c7-cb3a-4f52-bffe-6447d01cf225.jpg)
+
 </p>
 <h1 align="center">
   <b>Eva Maria Bot</b>
