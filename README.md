@@ -6,13 +6,13 @@
 </h1>
 
 
-[![Stars](https://img.shields.io/github/stars/EvamariaTG/EvaMaria?style=flat-square&color=yellow)](https://github.com/EvamariaTG/EvaMaria/stargazers)
-[![Forks](https://img.shields.io/github/forks/EvamariaTG/EvaMaria?style=flat-square&color=orange)](https://github.com/EvamariaTG/EvaMaria/fork)
-[![Size](https://img.shields.io/github/repo-size/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/)   
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/EvamariaTG/EvaMaria)   
-[![Contributors](https://img.shields.io/github/contributors/EvamariaTG/EvaMaria?style=flat-square&color=green)](https://github.com/EvamariaTG/EvaMaria/graphs/contributors)
-[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/EvamariaTG/EvaMaria/blob/main/LICENSE)
-[![Sparkline](https://stars.medv.io/EvamariaTG/EvaMaria.svg)](https://stars.medv.io/EvamariaTG/EvaMaria)
+[![Stars](https://img.shields.io/github/stars/Pulapatta/EvaMaria?style=flat-square&color=yellow)](https://github.com/Pulapatta/EvaMaria/stargazers)
+[![Forks](https://img.shields.io/github/forks/Pulapatta/EvaMaria?style=flat-square&color=orange)](https://github.com/Pulapatta/EvaMaria/fork)
+[![Size](https://img.shields.io/github/repo-size/Pulapatta/EvaMaria?style=flat-square&color=green)](https://github.com/Pulapatta/EvaMaria)   
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Pulapatta/EvaMaria)   
+[![Contributors](https://img.shields.io/github/contributors/Pulapatta/EvaMaria?style=flat-square&color=green)](https://github.com/Pulapatta/EvaMaria/graphs/contributors)
+[![License](https://img.shields.io/badge/License-AGPL-blue)](https://github.com/Pulapatta/EvaMaria/blob/main/LICENSE)
+[![Sparkline](https://stars.medv.io/Pulapatta/EvaMaria)
 
 
 ## Features
