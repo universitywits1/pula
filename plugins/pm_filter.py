@@ -401,9 +401,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✨ 𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐆𝐫𝐨𝐮𝐩 ✨', url='https://t.me/MovieRosterGroup')
             ],[
             InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
-            InlineKeyboardButton('❤️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/MovieRosterOfficial')
+            InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ❤️', url='https://t.me/MovieRosterOfficial')
             ],[
-            InlineKeyboardButton('𝐇𝐞𝐥𝐩 📚', callback_data='help'),
+            InlineKeyboardButton('📚 𝐇𝐞𝐥𝐩', callback_data='help'),
             InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭 🔰', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -461,7 +461,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('✖️ 𝐁𝐚𝐜𝐤', callback_data='help'),
-            InlineKeyboardButton('⏹️ 𝐁𝐮𝐭𝐭𝐨𝐧𝐬', callback_data='button')
+            InlineKeyboardButton('𝐁𝐮𝐭𝐭𝐨𝐧𝐬 ⏹️', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "extra":
         buttons = [[
             InlineKeyboardButton('✖️ 𝐁𝐚𝐜𝐤', callback_data='help'),
-            InlineKeyboardButton('👮‍♂️ 𝐀𝐝𝐦𝐢𝐧', callback_data='admin')
+            InlineKeyboardButton('𝐀𝐝𝐦𝐢𝐧 👮‍♂️', callback_data='admin')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -523,7 +523,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('✖️ 𝐁𝐚𝐜𝐤', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝐑𝐞𝐟𝐫𝐞𝐬𝐡', callback_data='rfrsh')
+            InlineKeyboardButton('𝐑𝐞𝐟𝐫𝐞𝐬𝐡 ♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
