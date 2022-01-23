@@ -39,7 +39,7 @@ async def next_page(bot, query):
 
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-       return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
+       return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -112,7 +112,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
+        return await query.answer("വിളച്ചിൽ എടുകുന്നോ കുഞ്ഞിപുഴു നിനക്ക് വേണേൽ നി Search ചെയ്യൂ കാരണം എനിക്ക് വേറെ പണി ഇല്ല😅. മാമനോടെ ഒന്നും തോന്നല്ലെ 😇", show_alert=True)
     if movie_  == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
@@ -403,8 +403,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
             InlineKeyboardButton('❤️ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/MovieRosterOfficial')
             ],[
-            InlineKeyboardButton('🧯 𝐇𝐞𝐥𝐩 ', callback_data='help'),
-            InlineKeyboardButton('📚 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
+            InlineKeyboardButton('𝐇𝐞𝐥𝐩 📚', callback_data='help'),
+            InlineKeyboardButton('𝐀𝐛𝐨𝐮𝐭 🔰', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -416,13 +416,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('🔖 𝐌𝐚𝐧𝐮𝐞𝐥 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='manuelfilter'),
-            InlineKeyboardButton('📀 𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫', callback_data='autofilter')
+            InlineKeyboardButton('𝐀𝐮𝐭𝐨 𝐅𝐢𝐥𝐭𝐞𝐫 📀', callback_data='autofilter')
             ],[
             InlineKeyboardButton('🔌 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧', callback_data='coct'),
-            InlineKeyboardButton('☢️ 𝐄𝐱𝐭𝐫𝐚 𝐌𝐨𝐝𝐬', callback_data='extra')
+            InlineKeyboardButton('𝐄𝐱𝐭𝐫𝐚 𝐌𝐨𝐝𝐬 ☢️', callback_data='extra')
             ],[
             InlineKeyboardButton('🏡 𝐇𝐨𝐦𝐞', callback_data='start'),
-            InlineKeyboardButton('🔰 𝐒𝐭𝐚𝐭𝐮𝐬', callback_data='stats')
+            InlineKeyboardButton('𝐒𝐭𝐚𝐭𝐮𝐬 🔰', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -435,10 +435,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('🕵‍♂ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫', url='https://t.me/Rafeeq_Kunnimon'),
-            InlineKeyboardButton('♥️ 𝐒𝐨𝐮𝐫𝐜𝐞', callback_data='source')
+            InlineKeyboardButton('𝐒𝐨𝐮𝐫𝐜𝐞 ♥️', callback_data='source')
             ],[
             InlineKeyboardButton('🏡 𝐇𝐨𝐦𝐞', callback_data='start'),
-            InlineKeyboardButton('⛔ 𝐂𝐥𝐨𝐬𝐞', callback_data='close_data')
+            InlineKeyboardButton('𝐂𝐥𝐨𝐬𝐞 ⛔', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
